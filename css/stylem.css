@@ -1,0 +1,586 @@
+@media screen and (max-width: 600px){
+	.class-list{
+		display: none;
+	}
+	.header{
+		width: 90%;
+	}
+	.btn1 {
+		display: block;
+		width: 120px;
+		line-height: 40px;
+		background: #ED6D00;
+		border-radius: 56px;
+		color: #FFFFFF;
+		margin: 0 auto;
+		margin-top: 60px;
+		text-align: center;
+	}
+	/*轮播图*/
+	.target {
+		height: 400px;
+	}
+	.title1,
+	.title2 {
+		margin-top: 40px;
+	}
+	.fold{
+		display: block;
+	}
+	.fold-page{
+		position: fixed;
+		left: 0;
+		right: 0;
+		height: 0;
+		top: 0;
+		background: var(--ViColor);
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+	.fold-page a{
+		color: #FFFFFF;
+		width: 100%;
+		height: 48px;
+		border-bottom: solid 1px rgba(255,255,255,0.2);
+		text-align: center;
+		line-height: 48px;
+	}
+	.fold-page a:hover{
+		background: rgba(255,255,255,0.2);
+	}
+	.title1 b:nth-child(1) {
+		font-size: 40px;
+	}
+	.title1 b:nth-child(2) {
+		font-size: 24px;
+		margin-top: -20px;
+	}
+	.advantage{
+		width: 88%;
+		height: 360px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 40px;
+	}
+	.advantage li{
+		width: 41%;
+		height: 150px;
+		margin-bottom: 20px;
+		border: solid 1px rgba(0,0,0,0.05);
+		border-radius: 8px;
+		padding: 12px;
+	}
+	.advantage img {
+		width: 54px;
+		height: 54px;
+	}
+	.advantage-text{
+		width: 98%;
+	}
+	.advantage-text div:nth-child(1) {
+		font-size: 18px;
+	}
+	.advantage-text div:nth-child(2) {
+		font-size: 13px;
+		height: 36px;
+	}
+	.advantage-hr{
+		display: none;
+	}
+	.truck-rental{
+		height: 1000px;
+	}
+	.truck-box {
+		width: 90%;
+		margin-top: 40px;
+		flex-direction: column;
+	}
+	.truck-box-left{
+		width: 100%;
+		height: 100px;
+		border-radius: 8px;
+	}
+	.truck-box-left-title {
+		color: #FFFFFF;
+		margin: 12px;
+	}
+	.truck-box-left-title b {
+		font-size: 20px;
+	}
+	
+	.truck-box-left-title p {
+		font-size: 14px;
+	}
+	.btn2{
+		right: 12px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	.truck-box-right {
+		width: 100%;
+		height: 560px;
+		margin-left: 0px;
+	}
+	.truck-img-box{
+		width: 100%;
+		height: 180px;
+		border-radius: 8px;
+		margin-bottom: 8px;
+	}
+	.truck-img {
+		width: 160px;
+		height: 160px;
+	}
+	.truck-information b {
+		font-size: 18px;
+		margin-bottom: 4px;
+	}
+	.truck-information p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.btn3{
+		margin-top: 4px;
+		width: 88px;
+		line-height: 28px;
+	}
+	/*优势对比*/
+	.contrast-center {
+		width: 90%;
+	}
+	.contrast-top {
+		width: 170px;
+		height: 700px;
+		margin-top: 40px;
+		border-radius: 8px;
+		left: 24px;
+	}
+	.contrast-list-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contrast-list{
+		width: 100%;
+		height: 150px;
+	}
+	
+	.contrast-list img {
+		width: 24px;
+		height: 24px;
+	}
+	.contrast-list div:nth-child(2) {
+		font-size: 15px;
+		margin-top: 4px;
+	}
+	.contrast-list hr {
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+	
+	.contrast-bottom {
+		width: 170px;
+		height: 700px;
+		padding-top: 10px;
+		right: 24px;
+		top: 80px;
+		border-radius: 8px;
+	}
+	/*司机招募*/
+	.title2 b:nth-child(1) {
+		font-size: 40px;
+	}
+	
+	.title2 b:nth-child(2) {
+		font-size: 24px;
+		margin-top: -20px;
+	}
+	.recruit {
+		width: 100%;
+		height: 900px;
+	}
+	.job-box {
+		width: 90%;
+		height:70%;
+		flex-direction: column;
+		margin-top: 40px;
+		border-radius: 8px;
+	}
+	.job-box-left,
+	.job-center,
+	.job-right {
+		width: 100%;
+		height: 33%;
+		border-radius: 8px;
+	}
+	.job-name {
+		margin: 24px;
+	}
+	.job-name div:nth-child(1) {
+		font-size: 24px;
+		width: 50%;
+		height: 30px;
+	}
+	
+	.job-requirement {
+		margin: 24px;
+	}
+	.job-title1 {
+		margin: 24px;
+	}
+	.job-introduce {
+		margin: 24px;
+	}
+	.job-right1 {
+		margin: 24px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.job-right input[type="submit"] {
+		padding: 10px 12px;
+	}
+	.recruit-botton{
+		width: 260px;
+	}
+	.recruit-botton div{
+		width: 120px;
+		line-height: 40px;
+	}
+	/*行业新闻*/
+	.news-list {
+		width: 90%;
+		height: 400px;
+		flex-direction: column;
+		margin-top: 40px;
+	}
+	.news-img {
+		width: 80px;
+		height: 80px;
+		background: url(../img/news_img.jpg)no-repeat center center;
+		background-size: cover;
+		border-radius: 4px;
+	}
+	.news-box {
+		width: 100%;
+		height: 320px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 12px;
+	}
+	.news-date {
+		margin: 8px 0 8px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.news-date span:nth-child(1) {
+		font-weight: bold;
+		font-size: 24px;
+		color: var(--ViColor);
+		margin: 0 8px 0 8px;
+	}
+	
+	.news-date span:nth-child(2) {
+		font-size: 16px;
+		color: var(--ViColor);
+	}
+	.news-introduce {
+		width: 62%;
+		font-size: 14px;
+	}
+	/*经营网点*/
+	.store {
+		margin-top: 40px;
+		padding-bottom: 40px;
+	}
+	.store-list {
+		width: 90%;
+		height: 800px;
+		margin-top: 40px;
+		flex-direction: column;
+	}
+	.store-box {
+		width: 100%;
+	}
+	.store-img {
+		width: 100%;
+		height: 160px;
+	}
+	/*合作伙伴*/
+	.cooperation {
+		width: 100%;
+		height: 569px;
+	}
+	.brand_logo {
+		width: 148px;
+		height: 50px;
+		margin: 12px 12px 24px 12px;
+	}
+	
+	.brand_logo img {
+		width: 100%;
+		height: 100%;
+	}
+	/*footer*/
+	.footer-top {
+		width: 90%;
+		margin-top: 32px;
+	}
+	.footer-hr{
+		width: 90%;
+	}
+	
+	.footer-center {
+		width: 90%;
+		margin-top: 24px;
+	}
+	.qrcode-box {
+		display: none;
+	}
+	.footer-bottom{
+		width: 100%;
+		height: 64px;
+	}
+	.footer-bottom-content {
+		width: 90%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	
+	
+	/*联系我们页面*/
+	.title5{
+		width: 90%;
+		margin-top: 40px;
+	}
+	.title5 b {
+		font-size: 28px;
+		color: var(--ViColor);
+	}
+	
+	.title5 p:nth-child(2) {
+		font-size: 16px;
+		color: var(--ViColor);
+	}
+	
+	.title5 p:nth-child(3) {
+		font-size: 13px;
+		color: rgba(0, 0, 0, 0.5);
+		margin-top: 8px;
+	}
+	.company-profile {
+		width: 90%;
+		font-size: 14px;
+		color: rgba(0, 0, 0, 0.5);
+		margin-top: 32px;
+	}
+	.company_profile-img {
+		margin-top: 32px;
+		width: 90%;
+	}
+	.top-bar div {
+		width: 90%;
+		margin: 0 auto;
+		line-height: 72px;
+	}
+	.company_profile-img img {
+		width: 100%;
+	}
+	.colorF6 {
+		background: #F6F6F6;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		margin-top: 40px;
+	}
+	.contact-input{
+		margin-bottom: 12px;
+	}
+	.title3 {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+	.input-list {
+		width: 90%;
+		margin-top: 40px;
+	}
+	.contact-textarea {
+		width: 90%;
+	}
+	.page-number-box{
+		width: 100%;
+	}
+	
+	/*行业新闻页面*/
+	.news {
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.news-list2 {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 24px;
+		align-items: center;
+	}
+	.news-box-img {
+		width: 141px;
+		height: 97px;
+	}
+	.news2-details {
+		width: 60%;
+		margin-left: 24px;
+	}
+	
+	.news2-details b {
+		font-size: 16px;
+		color: rgba(0, 0, 0, 0.8);
+		display: block;
+		height: 40px;
+		overflow: hidden;
+	}
+	
+	.news2-details p {
+		font-size: 13px;
+		margin-top: 8px;
+		height: 36px;
+	}
+	.news2-date {
+		font-size: 14px;
+		color: rgba(0, 0, 0, 0.5);
+		margin-top: 8px;
+	}
+	/*新闻详情页*/
+	.news-details {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+	.news-title {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 24px;
+	}
+	
+	.news-information {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 14px;
+		margin-top: 32px;
+	}
+	
+	.news-content {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 32px;
+		font-size: 14px;
+	}
+	.page-turning {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 32px;
+	}
+	/*车辆详情*/
+	.truck_details {
+		width: 90%;
+		padding: 24px;
+		margin-top: 40px;
+	}
+	.truck_details-img {
+		width: 40vw;
+		height: 40vw;
+	}
+	.truck_details-name {
+		font-size: 24px;
+	}
+	.truck_details-parameter {
+		font-size: 14px;
+	}
+	/*卡车租赁页面*/
+	.truck-class-list {
+		width: 90%;
+		margin-top: 40px;
+	}
+	.truck-class {
+		width: 32%;
+		height: 64px;
+		border-radius: 4px;
+	}
+	
+	.truck-class p {
+		font-size: 16px;
+		line-height: 24px;
+		margin-left: 12px;
+	}
+	.truck-class img {
+		width: 40px;
+		height: 40px;
+		margin-right: 18px;
+	}
+	.title4 {
+		width: 90%;
+	}
+	
+	.explain {
+		width: 90%;
+		font-size: 14px;
+		color: rgba(0, 0, 0, 0.5);
+		line-height: 26px;
+	}
+	.rental-advantage {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+	}
+	.truck-products {
+		width: 90%;
+		justify-content: space-between;
+	}
+	
+	.truck-product {
+		width: 41vw;
+		height: 50vw;
+		border-radius: 4px;
+	}
+	
+	.truck-product img {
+		width: 41vw;
+		height: 41vw;
+		border: solid 1px rgba(0, 0, 0, 0.08);
+		box-sizing: border-box;
+	}
+	.next {
+		display: none;
+	}
+	.prev {
+		display: none;
+	}
+	.control-box-father{
+		width: 90%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.control-box {
+		width: 380%;
+		background-size: 90%;
+	}
+	.bigbox {
+		overflow: hidden;
+		width: 100%;
+		height: 190px;
+	}
+	.box {
+		transition: all .7s ease 0s;
+		width: 255px;
+		height: 190px;
+		float: left;
+		border-left: 3px white solid;
+		background-size: cover;
+	}
+	
+}
