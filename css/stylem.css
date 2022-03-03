@@ -226,6 +226,8 @@
 	
 	.job-requirement {
 		margin: 24px;
+		width: auto;
+		border-radius: 8px;
 	}
 	.job-title1 {
 		margin: 24px;
@@ -238,6 +240,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+	.job-input {
+		width: auto;
+		height: 50px;
 	}
 	.job-right input[type="submit"] {
 		padding: 10px 12px;
