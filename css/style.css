@@ -8,7 +8,10 @@
 :root {
 	--ViColor: #ED6C00;
 }
-
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
 /*滚轮轨道相关*/
 body::-webkit-scrollbar {
 	width: 3px;
@@ -610,6 +613,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .job-right input[type="submit"] {
+	display: block;
 	background: #ED6C00;
 	border: 1px solid #ED6D00;
 	box-sizing: border-box;
