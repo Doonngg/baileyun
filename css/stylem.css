@@ -246,7 +246,7 @@
 		height: 50px;
 	}
 	.job-right input[type="submit"] {
-		padding: 10px 12px;
+		width: 100%;
 	}
 	.recruit-botton{
 		width: 260px;
