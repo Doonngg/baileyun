@@ -1516,3 +1516,52 @@ footer {
 	height: 18px;
 	margin-right: 8px;
 }
+/*网点详情*/
+.store-details{
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+}
+.store-details-img{
+	width: 372px;
+	height: 268px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.store-details-img img{
+	width: 100%;
+}
+.store-details-information{
+	margin-left: 24px;
+	width: 804px;
+}
+.store-details-information b{
+	font-size: 24px;
+	color: var(--ViColor);
+}
+.store-details-information p{
+	font-size: 14px;
+	color: rgba(0,0,0,0.5);
+	margin-top: 16px;
+	height: 80px;
+	overflow: hidden;
+}
+.store-details-bottom{
+	margin-top: 80px;
+}
+.store-details-address,.store-details-phone{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 14px;
+	color: rgba(0,0,0,0.5);
+	margin-top: 12px;
+}
+.store-details-address img,.store-details-phone img{
+	width: 18px;
+	height: 18px;
+	margin-right: 8px;
+}
